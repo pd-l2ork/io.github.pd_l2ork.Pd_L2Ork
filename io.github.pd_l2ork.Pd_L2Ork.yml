@@ -208,6 +208,7 @@ modules:
   # add arduino library
   - cp -rf externals/hardware/arduino /app/lib/pd-l2ork/extra/
 
+  - install -d /app/extensions/Plugins
   sources:
   - type: git
     url: https://github.com/pd-l2ork/pd-l2ork/
