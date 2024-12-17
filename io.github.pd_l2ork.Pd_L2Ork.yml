@@ -229,3 +229,4 @@ modules:
     dest-filename: nwjs.tar.gz
     only-arches:
       - aarch64
+
