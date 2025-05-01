@@ -50,8 +50,8 @@ modules:
   sources:
   - type: git
     url: https://github.com/pd-l2ork/pd-l2ork/
-    tag: '20241224'
-    commit: fcf040ce54515a5122bbd339d5c62bf896be50db
+    tag: '20250430'
+    commit: 435c059192617c691ada06ab6b15b225a907fdec
   - type: patch
     path: patch/no-rsync-during-install.patch
 
@@ -60,7 +60,7 @@ modules:
 # For fluid~ object
 - shared-modules/linux-audio/fluidsynth2.json
 # For LADSPA support
-- shared-modules/linux-audio/ladspa.json
+- patch/ladspa.json
 # For pdlua
 - shared-modules/lua5.3/lua-5.3.5.json
 # For the OSCx library
@@ -146,8 +146,8 @@ modules:
   sources:
   - type: git
     url: https://github.com/pd-l2ork/pd-l2ork/
-    tag: '20241224'
-    commit: fcf040ce54515a5122bbd339d5c62bf896be50db
+    tag: '20250430'
+    commit: 435c059192617c691ada06ab6b15b225a907fdec
 
 - name: rpi-externals
   buildsystem: simple
@@ -164,8 +164,8 @@ modules:
   sources:
   - type: git
     url: https://github.com/pd-l2ork/pd-l2ork/
-    tag: '20241224'
-    commit: fcf040ce54515a5122bbd339d5c62bf896be50db
+    tag: '20250430'
+    commit: 435c059192617c691ada06ab6b15b225a907fdec
 
 - name: pd-abstractions
   buildsystem: simple
@@ -175,8 +175,8 @@ modules:
   sources:
   - type: git
     url: https://github.com/pd-l2ork/pd-l2ork/
-    tag: '20241224'
-    commit: fcf040ce54515a5122bbd339d5c62bf896be50db
+    tag: '20250430'
+    commit: 435c059192617c691ada06ab6b15b225a907fdec
 
 - name: pd-l2ork-integration
   buildsystem: simple
@@ -213,8 +213,8 @@ modules:
   sources:
   - type: git
     url: https://github.com/pd-l2ork/pd-l2ork/
-    tag: '20241224'
-    commit: fcf040ce54515a5122bbd339d5c62bf896be50db
+    tag: '20250430'
+    commit: 435c059192617c691ada06ab6b15b225a907fdec
   - type: file
     # x86_64
     url: https://dl.nwjs.io/v0.67.1/nwjs-sdk-v0.67.1-linux-x64.tar.gz
