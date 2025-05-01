@@ -60,7 +60,7 @@ modules:
 # For fluid~ object
 - shared-modules/linux-audio/fluidsynth2.json
 # For LADSPA support
-- shared-modules/linux-audio/ladspa.json
+- patch/ladspa.json
 # For pdlua
 - shared-modules/lua5.3/lua-5.3.5.json
 # For the OSCx library
