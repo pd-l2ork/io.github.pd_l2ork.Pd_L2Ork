@@ -60,7 +60,7 @@ modules:
 # For fluid~ object
 - shared-modules/linux-audio/fluidsynth2.json
 # For LADSPA support
-- patch/ladspa.json
+- shared-modules/linux-audio/ladspa.json
 # For pdlua
 - shared-modules/lua5.3/lua-5.3.5.json
 # For the OSCx library
@@ -142,7 +142,6 @@ modules:
          pan_install pdcontainer_install pddp_install pdlua_install pdogg_install \
          plugin_install pmpd_install rjlib_install sigpack_install smlib_install \
          tof_install unauthorized_install vbap_install windowing_install zexy_install
-
   sources:
   - type: git
     url: https://github.com/pd-l2ork/pd-l2ork/
@@ -209,7 +208,6 @@ modules:
   - cp -rf externals/hardware/arduino /app/lib/pd-l2ork/extra/
   # add plugins folder
   - install -d /app/extensions/Plugins
-
   sources:
   - type: git
     url: https://github.com/pd-l2ork/pd-l2ork/
